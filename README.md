@@ -2,64 +2,129 @@
 
 ## Project Overview
 
-This project demonstrates the implementation of an end-to-end **Incident Management lifecycle in ServiceNow**. The workflow covers incident creation, classification, investigation, reassignment, change management, resolution, and knowledge creation.
+This project implements an Incident Lifecycle Automation solution using ServiceNow Incident Management.
 
-## Project Objective
+The objective is to automate and standardize the incident management lifecycle from incident creation through classification, assignment, escalation, knowledge integration, resolution, and validation.
 
-The main objective is to standardize and streamline the incident lifecycle while maintaining proper tracking and relationships between incidents and related records.
+The project demonstrates how ServiceNow can be used to improve incident tracking, support team collaboration, knowledge reuse, SLA monitoring, and resolution efficiency.
 
-## Project Workflow
+## Business Objectives
 
-The project was implemented through the following phases:
+The main objectives of this project are:
 
-1. Ideation
-2. Requirement Analysis
-3. Project Design
-4. Project Planning and Scheduling
-5. Project Development
-6. Service Configuration
-7. Incident Creation and Classification
-8. Knowledge Integration and Reassignment
-9. Level 2 Investigation and Change Management
-10. Child Incident and Resolution
-11. Knowledge Article Creation
-12. Final Validation
+- Enable Service Desk agents to create and classify incidents.
+- Standardize the Incident Management lifecycle.
+- Integrate Knowledge Management for faster incident resolution.
+- Enable reassignment to appropriate support groups.
+- Allow Level 2 technicians to investigate and resolve incidents.
+- Create emergency change requests directly from incidents.
+- Support child incident creation for recurring or related issues.
+- Document incident cause and resolution information.
+- Generate knowledge articles from resolved incidents.
+- Improve SLA compliance and service visibility.
 
-## Key Features
+## Technology Used
 
-- Service and Service Offering configuration
-- Incident creation and classification
-- Agent Assist and Knowledge integration
-- Incident reassignment to appropriate support groups
-- Level 2 support investigation
-- Emergency Change Request creation
-- Child Incident creation
-- Incident cause and resolution documentation
-- Knowledge Article creation
-- SLA and related record validation
-
-## ServiceNow Modules / Concepts
-
-- Incident Management
-- Service Catalog
-- Knowledge Management
-- Change Management
+- ServiceNow
+- ServiceNow Incident Management
 - Service Operations Workspace
+- Service Portfolio Management
+- Knowledge Management
+- Agent Assist
+- Change Management
 - Service Level Agreements (SLAs)
-- Related Records
+- Related Lists
 
-## Project Documentation
+## Incident Lifecycle
 
-The detailed project documentation and phase-wise implementation files are available in this repository.
+The implemented incident lifecycle follows this general flow:
 
-## Project Demo
+**User Reports Issue**  
+↓  
+**Incident Record Creation**  
+↓  
+**Incident Classification**  
+↓  
+**Assignment to Support Group**  
+↓  
+**Knowledge Assistance**  
+↓  
+**Reassignment / Escalation**  
+↓  
+**Level 2 Investigation**  
+↓  
+**Change Request if Required**  
+↓  
+**Child Incident if Required**  
+↓  
+**Incident Resolution**  
+↓  
+**Knowledge Creation**  
+↓  
+**SLA & Related Record Validation**  
+↓  
+**Incident Closure**
 
-[View Project Demo](PASTE_YOUR_GOOGLE_DRIVE_LINK_HERE)
+## Project Scope
 
-## Repository Contents
+The project covers:
 
-The repository contains the project documentation for the different implementation phases, along with the complete project documentation.
+- Incident Record Creation
+- Incident Classification
+- Knowledge Integration
+- Reassignment and Escalation
+- Level 2 Incident Tracking
+- Emergency Change Request Creation
+- Child Incident Creation
+- Incident Resolution
+- Knowledge Article Creation
+- SLA and Related Record Validation
+- Testing and Deployment Validation
 
-## Conclusion
+## Stakeholders
 
-The project demonstrates the complete incident lifecycle in ServiceNow, from initial service configuration and incident creation through investigation, change management, resolution, knowledge creation, and final validation.
+| Stakeholder | Responsibility |
+|---|---|
+| End User | Reports IT issues |
+| Service Desk / L1 Support | Creates and initially handles incidents |
+| Level 2 Support | Investigates and resolves escalated incidents |
+| Change Management Team | Handles required change requests |
+| Knowledge Manager | Maintains knowledge articles |
+| ServiceNow Administrator | Maintains ServiceNow configuration |
+
+## Project Phases
+
+| Phase | Description |
+|---|---|
+| Phase 1 | Requirement Analysis & Planning |
+| Phase 2 | Create New Service & Service Offering |
+| Phase 3 | Incident Record Creation |
+| Phase 4 | Incident Classification |
+| Phase 5 | Knowledge Integration |
+| Phase 6 | Reassignment & Escalation |
+| Phase 7 | Incident Tracking by Level 2 |
+| Phase 8 | Emergency Change Request Creation |
+| Phase 9 | Child Incident Creation |
+| Phase 10 | Incident Resolution |
+| Phase 11 | Knowledge Creation |
+| Phase 12 | Final Validation |
+| Phase 13 | Testing & Deployment Validation |
+| Phase 14 | Conclusion |
+
+## Evidence
+
+Screenshots and supporting documentation will be added as the ServiceNow implementation progresses.
+
+## Project Demonstration
+
+A demonstration video will be added after the complete ServiceNow implementation and validation.
+
+## Author
+
+**Vamsi Srinivas Nudurumati**
+
+## Project Status
+
+**In Progress**
+
+The project is being implemented and validated phase-by-phase in a ServiceNow Developer Instance.
